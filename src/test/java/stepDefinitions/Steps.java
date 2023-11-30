@@ -29,7 +29,7 @@ public class Steps {
 	
 	@Given("the user is on the home page of the application")
 	public void the_user_is_on_the_home_page_of_the_application() {
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\sudip\\eclipse-workspace\\Cucumber_BDD_Example\\Drivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\sudip\\eclipse-workspace\\Cucumber_BDD_Example2\\Drivers\\chromedriver.exe");
 		ChromeOptions options = new ChromeOptions();
 	    options.addArguments("--remote-allow-origins=*");
 		driver=new ChromeDriver(options);

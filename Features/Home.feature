@@ -43,7 +43,7 @@ Feature: Interaction with Buttons on Reqres Website
     When the user clicks on the Support link after selecting one time or monthly payment
     Then the detail payment for upgrade details should be displayed
     
-  @tobeautomated
+  @automated
   Scenario: Send a POST request to create a user
     When the user sends a POST request to "https://reqres.in/api/users/2" with body:
       """
